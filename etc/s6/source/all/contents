@@ -1,0 +1,13 @@
+proc
+sys
+lock
+devpts
+shm
+tmp
+fsck
+rw
+fstab
+hwclock
+compat
+urandom
+btmp
