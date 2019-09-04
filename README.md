@@ -32,7 +32,8 @@ s6 boot scripts for glaucus
 
 ## Install
 ```shell
-rsync -vah $CERD/$name/$name/ $SCER/$name/sac --delete
+rsync -vah $CERD/$name/$name/etc $SCER/$name/sac --delete
+rsync -vah $CERD/$name/$name/usr $SCER/$name/sac --delete
 ```
 
 ```shell
