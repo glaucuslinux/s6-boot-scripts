@@ -1,2 +1,2 @@
 #!/usr/bin/execlineb -P
-getty
+agetty tty1
