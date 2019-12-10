@@ -1,2 +1,2 @@
 #!/usr/bin/execlineb -P
-fsck -p
+fsck -ATp

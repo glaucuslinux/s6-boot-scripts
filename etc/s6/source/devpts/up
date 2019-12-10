@@ -1,3 +1,3 @@
 #!/usr/bin/execlineb -P
 if { mkdir /dev/pts }
-mount -nt devpts -o noexec,nosuid,gid=0,mode=0600 devpts /dev/pts
+mount -no noexec,nosuid,gid=0,mode=0600 -t devpts devpts /dev/pts
