@@ -25,7 +25,7 @@ https://github.com/glaucuslinux/s6-boot-scripts
 * s6-rc
 
 ## Description
-s6 boot scripts for glaucus
+glaucus's s6 boot scripts
 
 ## License
 * ISC
