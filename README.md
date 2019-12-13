@@ -1,7 +1,7 @@
-# glaucus-s6-boot-scripts
+# s6-boot-scripts
 
 ## Name
-glaucus-s6-boot-scripts
+s6-boot-scripts
 
 ## Version
 git
@@ -13,7 +13,7 @@ git
 * x86-64
 
 ## URL
-https://github.com/firasuke/glaucus-s6-boot-scripts
+https://github.com/glaucuslinux/s6-boot-scripts
 
 ## Cysts
 * musl
