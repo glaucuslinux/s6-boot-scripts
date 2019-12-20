@@ -1,2 +1,2 @@
 #!/usr/bin/execlineb -P
-agetty tty1
+agetty -l /usr/bin/login tty1
