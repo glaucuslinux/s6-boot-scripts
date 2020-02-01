@@ -1,4 +1,7 @@
 # s6-boot-scripts
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5c5caf7c2ae4ea99436ac9550476823)](https://app.codacy.com/gh/glaucuslinux/s6-boot-scripts?utm_source=github.com&utm_medium=referral&utm_content=glaucuslinux/s6-boot-scripts&utm_campaign=Badge_Grade_Dashboard)
+
 [![Join the chat at https://gitter.im/glaucuslinux/s6-boot-scripts](
 https://badges.gitter.im/glaucuslinux/s6-boot-scripts.svg)](
 https://gitter.im/glaucuslinux/s6-boot-scripts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
