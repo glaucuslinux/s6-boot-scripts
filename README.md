@@ -8,6 +8,18 @@ https://gitter.im/glaucuslinux/s6-boot-scripts?utm_source=badge&utm_medium=badge
 
 glaucus's s6 boot scripts
 
+## Community
+*   [Discord](https://discord.gg/gZSHj65)
+*   [Gitter](https://gitter.im/glaucuslinux/s6-boot-scripts)
+*   [Reddit](https://www.reddit.com/r/glaucus)
+*   [Telegram](https://t.me/glaucuslinux)
+
+## Donate
+*   [Ko-fi](https://ko-fi.com/glaucuslinux)
+*   [Liberapay](https://liberapay.com/glaucuslinux)
+*   [Patreon](https://www.patreon.com/glaucuslinux)
+*   [PayPal](https://www.paypal.me/glaucuslinux)
+
 ## Mirrors
 *   [BitBucket](https://bitbucket.org/glaucuslinux/s6-boot-scripts)
 *   [Framagit](https://framagit.org/glaucuslinux/s6-boot-scripts)
