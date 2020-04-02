@@ -5,6 +5,7 @@ https://app.codacy.com/gh/glaucuslinux/s6-boot-scripts?utm_source=github.com&utm
 [![Join the chat at https://gitter.im/glaucuslinux/s6-boot-scripts](
 https://badges.gitter.im/glaucuslinux/s6-boot-scripts.svg)](
 https://gitter.im/glaucuslinux/s6-boot-scripts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fglaucuslinux%2Fs6-boot-scripts.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fglaucuslinux%2Fs6-boot-scripts?ref=badge_shield)
 
 glaucus's s6 boot scripts
 
@@ -22,3 +23,7 @@ glaucus's s6 boot scripts
 * [NotABug](https://notabug.org/glaucuslinux/s6-boot-scripts)
 * [SourceForge](https://git.code.sf.net/p/glaucuslinux/s6-boot-scripts)
 * [SourceHut](https://git.sr.ht/~glaucuslinux/s6-boot-scripts)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fglaucuslinux%2Fs6-boot-scripts.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fglaucuslinux%2Fs6-boot-scripts?ref=badge_large)
