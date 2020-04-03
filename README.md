@@ -9,7 +9,7 @@ https://gitter.im/glaucuslinux/s6-boot-scripts?utm_source=badge&utm_medium=badge
 glaucus's s6 boot scripts
 
 ## Community
-* [Discord](https://discord.gg/gZSHj65)
+* [Discord](https://discord.gg/nDKNmNc)
 * [Gitter](https://gitter.im/glaucuslinux/s6-boot-scripts)
 * [Reddit](https://www.reddit.com/r/glaucus)
 * [Telegram](https://t.me/glaucuslinux)
