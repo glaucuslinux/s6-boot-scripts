@@ -1,2 +1,2 @@
 #!/usr/bin/execlineb -P
-mkdir /run/lock
+install -d /run/lock

@@ -4,9 +4,8 @@ lock
 devpts
 shm
 tmp
-smdev
-nldev
-nltrigger
+udevd
+udev-coldplug
 fsck
 rw
 fstab
