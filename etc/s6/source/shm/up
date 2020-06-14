@@ -1,3 +1,2 @@
-#!/usr/bin/execlineb -P
 if { install -d /run/shm }
 mount -no noatime,nodev,noexec,nosuid -t tmpfs shm /run/shm

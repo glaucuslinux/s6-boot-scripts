@@ -1,3 +1,2 @@
-#!/usr/bin/execlineb -P
 if { install -d /dev/pts }
 mount -no noexec,nosuid,gid=0,mode=0600 -t devpts devpts /dev/pts

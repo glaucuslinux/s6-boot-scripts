@@ -1,2 +1,1 @@
-#!/usr/bin/execlineb -P
 mount -no nodev,noexec,nosuid -t proc proc /proc

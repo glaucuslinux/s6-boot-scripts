@@ -1,4 +1,3 @@
-#!/usr/bin/execlineb -P
 if { install -d /run/tmp }
 if { mount -no noatime,nodev,nosuid -t tmpfs tmp /run/tmp }
 install -dm1733 /run/tmp/.X11-unix /run/tmp/.ICE-unix

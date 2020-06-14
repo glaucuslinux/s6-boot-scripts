@@ -1,2 +1,1 @@
-#!/usr/bin/execlineb -P
 install -d /run/lock

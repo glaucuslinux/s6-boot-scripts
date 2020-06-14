@@ -1,2 +1,1 @@
-#!/usr/bin/execlineb -P
 umount /dev/pts

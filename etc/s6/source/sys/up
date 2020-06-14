@@ -1,2 +1,1 @@
-#!/usr/bin/execlineb -P
 mount -no noatime,nodev,noexec,nosuid -t sysfs sys /sys
