@@ -1,2 +1,2 @@
-#!/usr/bin/dash -e
+#!/bin/sh -e
 exec s6-rc -badv2 change

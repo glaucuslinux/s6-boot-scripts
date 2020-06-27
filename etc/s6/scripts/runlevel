@@ -1,5 +1,3 @@
-#!/usr/bin/dash -e
-[ "$#" -gt 0 ] ||
-printf 'runlevel: fatal: too few arguments' >&2 &&
-exit 100
+#!/bin/sh -e
+[ "$#" -gt 0 ] || printf 'runlevel: fatal: too few arguments' >&2 && exit 100
 exec s6-rc -upv2 change $1

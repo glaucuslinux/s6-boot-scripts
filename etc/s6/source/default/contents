@@ -1,3 +1,4 @@
+hostname
 proc
 sys
 lock
@@ -5,7 +6,7 @@ devpts
 shm
 tmp
 udevd
-udev-coldplug
+coldplug
 fsck
 rw
 fstab
