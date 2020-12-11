@@ -1,2 +1,0 @@
-#!/usr/bin/execlineb -P
-agetty -l /usr/bin/sulogin tty1

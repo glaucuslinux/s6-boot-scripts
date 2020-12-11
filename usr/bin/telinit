@@ -1,1 +1,3 @@
-../../etc/s6/bin/telinit
+#!/usr/bin/execlineb -S0
+
+s6-linux-init-telinit $@

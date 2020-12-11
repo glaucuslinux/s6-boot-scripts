@@ -1,1 +1,3 @@
-../../etc/s6/bin/reboot
+#!/usr/bin/execlineb -S0
+
+s6-linux-init-hpr -r $@
