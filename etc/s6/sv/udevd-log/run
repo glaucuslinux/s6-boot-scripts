@@ -1,0 +1,3 @@
+#!/usr/bin/execlineb -P
+foreground { install -dg s6log -o s6log /var/log/udevd }
+s6-setuidgid s6log exec -c s6-log -d3 -b -- n3 s6000000 T /var/log/udevd

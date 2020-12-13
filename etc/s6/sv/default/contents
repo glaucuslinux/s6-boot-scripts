@@ -1,16 +1,1 @@
-hostname
-proc
-sys
-lock
-devpts
-shm
-tmp
-udevd
-coldplug
-fsck
-rw
-fstab
-hwclock
-compat
-urandom
-btmp
+boot

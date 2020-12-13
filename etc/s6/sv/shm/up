@@ -1,2 +1,3 @@
-if { install -d /run/shm }
-mount -no noatime,nodev,noexec,nosuid -t tmpfs shm /run/shm
+foreground { install -d /run/shm }
+foreground { mount -no noatime,nodev,noexec,nosuid -t tmpfs shm /run/shm }
+ln -fns ../run/shm /dev/shm
