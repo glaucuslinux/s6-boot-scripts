@@ -6,11 +6,10 @@ devpts
 shm
 tmp
 udevd
-coldplug
+udevadm
 fsck
 rw
 fstab
 hwclock
-compat
 urandom
 btmp

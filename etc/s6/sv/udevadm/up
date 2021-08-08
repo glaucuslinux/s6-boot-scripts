@@ -1,6 +1,6 @@
-foreground { udevd --daemon }
-foreground { redirfd -w 1 /dev/null udevadm trigger --action=add --attr-match=dev }
-foreground { redirfd -w 1 /dev/null udevadm trigger --action=add --type=subsystems }
-foreground { redirfd -w 1 /dev/null udevadm trigger --action=add --type=devices }
+foreground { udevd -d }
+foreground { redirfd -w 1 /dev/null udevadm trigger -c add -a dev }
+foreground { redirfd -w 1 /dev/null udevadm trigger -t subsystems -c add }
+foreground { redirfd -w 1 /dev/null udevadm trigger -t devices -c add }
 foreground { redirfd -w 1 /dev/null udevadm settle }
-udevadm control --exit
+udevadm control -x

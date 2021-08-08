@@ -1,3 +1,0 @@
-#!/usr/bin/execlineb -P
-if { udevadm control --start-exec-queue }
-udevd

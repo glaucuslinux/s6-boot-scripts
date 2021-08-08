@@ -1,4 +1,4 @@
 envfile /etc/s6/s6.conf
 importas -iu HARDWARECLOCK HARDWARECLOCK
-foreground { if { test $HARDWARECLOCK = UTC } hwclock --systohc --utc --noadjfile }
-if -x 0 { test $HARDWARECLOCK = localtime } hwclock --systohc --localtime --noadjfile
+foreground { if { test $HARDWARECLOCK = UTC } hwclock -w -u --noadjfile }
+if -x 0 { test $HARDWARECLOCK = localtime } hwclock -w -l --noadjfile

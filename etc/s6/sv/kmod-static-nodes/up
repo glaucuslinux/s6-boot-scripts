@@ -1,2 +1,2 @@
 foreground { install -d /run/tmpfiles.d }
-kmod static-nodes --format=tmpfiles --output=/run/tmpfiles.d/kmod.conf
+kmod static-nodes -f tmpfiles -o /run/tmpfiles.d/kmod.conf

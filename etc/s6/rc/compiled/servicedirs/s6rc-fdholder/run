@@ -1,16 +1,16 @@
 #!/usr/bin/execlineb -P
 pipeline -dw --
 {
-  if -n --
+  if --
   {
-    forstdin -x 1 -- i
-    exit 1
+    forstdin -x0 -- i
+      exit 0
   }
   if -nt --
   {
     redirfd -r 0 ./data/autofilled
     s6-ipcclient -l0 -- s
-    /usr/lib/s6-rc/s6-rc-fdholder-filler -1 --
+    /usr/lib/s6-rc-fdholder-filler -1 --
   }
   s6-svc -t .
 }

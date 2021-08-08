@@ -1,0 +1,7 @@
+#!/usr/bin/execlineb -P
+
+envfile /etc/s6/s6.conf
+importas -siu TTYS TTYS
+forx TTY { $TTYS }
+importas -u TTY TTY
+agetty -8 -L $TTY 115200
