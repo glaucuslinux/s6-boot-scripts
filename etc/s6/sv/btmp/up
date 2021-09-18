@@ -1,1 +1,1 @@
-install -g utmp -m0600 -o root /dev/null /var/log/btmp
+install -g utmp -m0600 -o utmp /dev/null /var/log/btmp

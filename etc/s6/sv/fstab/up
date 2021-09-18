@@ -1,2 +1,1 @@
-foreground { mount -a -O no_netdev }
-foreground { zfs mount -a }
+mount -a -O no_netdev
