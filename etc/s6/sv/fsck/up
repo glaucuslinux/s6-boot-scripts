@@ -1,1 +1,1 @@
-fsck -ATp
+fsck -pACT

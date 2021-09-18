@@ -1,1 +1,1 @@
-umount /proc
+umount -l /proc

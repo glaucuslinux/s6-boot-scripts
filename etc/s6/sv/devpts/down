@@ -1,1 +1,1 @@
-umount /dev/pts
+umount -l /dev/pts

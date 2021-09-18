@@ -1,1 +1,1 @@
-mount -a -O no_netdev
+mount -aFO no_netdev

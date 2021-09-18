@@ -1,0 +1,8 @@
+proc
+sys
+devpts
+shm
+fstab
+net
+tmp
+rw

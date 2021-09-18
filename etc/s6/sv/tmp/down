@@ -1,1 +1,1 @@
-umount /run/tmp
+umount -l /run/tmp
