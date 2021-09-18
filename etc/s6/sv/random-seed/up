@@ -1,0 +1,2 @@
+redirfd -w 1 /dev/urandom
+cat /var/lib/misc/random-seed

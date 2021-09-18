@@ -11,5 +11,5 @@ fsck
 rw
 fstab
 hwclock
-urandom
+random-seed
 btmp

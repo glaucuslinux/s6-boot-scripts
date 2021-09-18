@@ -1,5 +1,0 @@
-foreground { cat /var/lib/urandom/seed > /dev/urandom }
-backtick -n BYTES { cat /proc/sys/kernel/random/poolsize }
-importas -iu BYTES BYTES
-foreground { if { test -z $BYTES } define BYTES 512 }
-redirfd -w 2 /dev/null dd if=/dev/urandom of=/var/lib/urandom/seed count=1 bs=$BYTES
