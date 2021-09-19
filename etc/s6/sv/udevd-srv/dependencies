@@ -1,2 +1,4 @@
+devpts
 rw
+shm
 sys

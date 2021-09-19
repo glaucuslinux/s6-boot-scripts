@@ -1,3 +1,1 @@
-envfile /etc/s6/config/hwclock.conf
-importas -uD "UTC" HARDWARECLOCK HARDWARECLOCK
-ifelse { test $HARDWARECLOCK = UTC } { hwclock -w -u --noadjfile } hwclock -w -l --noadjfile
+hwclock -w -u --noadjfile
