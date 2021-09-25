@@ -1,4 +1,5 @@
 #!/usr/bin/execlineb -P
+
 if { install -dg log -o log /var/log/udevd }
 s6-setuidgid log
 s6-log -d3 -b -- n3 s2000000 T /var/log/udevd

@@ -1,1 +1,1 @@
-install -d /run/lock
+install -dm 0700 /run/lock

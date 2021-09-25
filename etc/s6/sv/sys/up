@@ -1,2 +1,3 @@
-if { mount -no noatime,nodev,noexec,nosuid -t sysfs sys /sys }
-if -x 0 { test -d /sys/firmware/efi } mount -no ro -t efivarfs efivarfs /sys/firmware/efi/efivars
+if { mount -no noatime,nodev,noexec,nosuid,ro -t sysfs sys /sys }
+if { test -d /sys/firmware/efi }
+mount -no ro -t efivarfs efivarfs /sys/firmware/efi/efivars

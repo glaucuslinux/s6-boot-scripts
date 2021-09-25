@@ -3,5 +3,4 @@ loopback
 random-seed
 swap
 sysctl
-tty
 wtmp
