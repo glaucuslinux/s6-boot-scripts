@@ -1,1 +1,1 @@
-mount -aFO no_netdev
+mount -aO no_netdev -t "nosysfs,nodevpts,noproc,nonfs,nonfs4,nosmbfs,nocifs"
