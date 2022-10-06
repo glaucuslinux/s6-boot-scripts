@@ -13,6 +13,7 @@ glaucus's s6 boot scripts
 * [Gitter](https://gitter.im/glaucuslinux/s6-boot-scripts)
 * [Reddit](https://www.reddit.com/r/glaucus)
 * [Telegram](https://t.me/glaucuslinux)
+* [YouTube](https://www.youtube.com/channel/UCOpZsBcIF2NvJHuzdP1UP_w)
 
 ## Mirrors
 * [BitBucket](https://bitbucket.org/glaucuslinux/s6-boot-scripts)
