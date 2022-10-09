@@ -6,12 +6,10 @@ hwclock
 lo
 lock
 modules
-proc
 random-seed
 rw
 shm
 swap
-sys
 sysctl
 tmp
 udevadm
