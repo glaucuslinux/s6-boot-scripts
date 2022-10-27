@@ -14,7 +14,7 @@ glaucus's s6 boot scripts
 * [Reddit](https://www.reddit.com/r/glaucus)
 * [Telegram](https://t.me/glaucuslinux)
 * [Twitter](https://twitter.com/glaucuslinux)
-* [YouTube](https://www.youtube.com/channel/UCOpZsBcIF2NvJHuzdP1UP_w)
+* [YouTube](https://www.youtube.com/@glaucuslinux)
 
 ## Mirrors
 * [BitBucket](https://bitbucket.org/glaucuslinux/s6-boot-scripts)
