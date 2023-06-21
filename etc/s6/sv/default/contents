@@ -1,10 +1,14 @@
 btmp
+coldplug
+console
 devpts
 fstab
 hostname
 hwclock
+lastlog
 lo
 lock
+mdevd
 modules
 random-seed
 rw
@@ -17,6 +21,4 @@ tty3
 tty4
 tty5
 tty6
-udevadm
-udevd
 wtmp

@@ -1,6 +1,0 @@
-if { udevd -d }
-if { redirfd -w 1 /dev/null udevadm trigger -c add -a dev }
-if { redirfd -w 1 /dev/null udevadm trigger -t subsystems -c add }
-if { redirfd -w 1 /dev/null udevadm trigger -t devices -c add }
-if { redirfd -w 1 /dev/null udevadm settle }
-udevadm control -S
