@@ -1,0 +1,3 @@
+#!/usr/bin/execlineb -S0
+s6-fdholder-retrieve ../s6rc-fdholder/s "pipe:s6rc-r-mdevd-log"
+./run.user $@
