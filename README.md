@@ -3,7 +3,6 @@ glaucus's s6 boot scripts
 
 ## Community
 * [Discord](https://discord.gg/nDKNmNc)
-* [Gitter](https://gitter.im/glaucuslinux/s6-boot-scripts)
 * [Reddit](https://www.reddit.com/r/glaucus)
 * [Telegram](https://t.me/glaucuslinux)
 * [Twitter](https://twitter.com/glaucuslinux)
