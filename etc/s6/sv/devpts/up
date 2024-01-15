@@ -1,2 +1,2 @@
 if { install -d /dev/pts }
-mount -no noexec,nosuid,gid=5,mode=0600 -t devpts devpts /dev/pts
+mount -o noexec,nosuid,gid=5,mode=0600 -t devpts devpts /dev/pts

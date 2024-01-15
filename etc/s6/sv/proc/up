@@ -1,1 +1,1 @@
-mount -nt proc proc /proc
+mount -t proc proc /proc

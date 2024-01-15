@@ -1,1 +1,1 @@
-mount -no remount,rw /
+mount -o remount,rw /
