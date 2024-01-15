@@ -1,5 +1,0 @@
-#!/usr/bin/execlineb -S0
-fdmove 1 0
-s6-fdholder-retrieve ../s6rc-fdholder/s "pipe:s6rc-w-mdevd-log"
-fdswap 0 1
-./run.user $@

@@ -1,0 +1,4 @@
+#!/usr/bin/execlineb -S1
+
+exec -c
+mdevd -D3 -O4
