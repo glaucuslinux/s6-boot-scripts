@@ -1,1 +1,1 @@
-ip link set dev lo up
+ip link set lo up
