@@ -1,3 +1,2 @@
 if { install -d /run/shm }
-if { mount -no noatime,nodev,noexec,nosuid -t tmpfs shm /run/shm }
-ln -fns ../run/shm /dev/shm
+ln -fns /run/shm /dev

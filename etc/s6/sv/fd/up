@@ -1,0 +1,4 @@
+if { ln -fns /proc/self/fd /dev }
+if { ln -fns fd/0 /dev/stdin }
+if { ln -fns fd/1 /dev/stdout }
+if { ln -fns fd/2 /dev/stderr }
