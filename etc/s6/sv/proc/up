@@ -1,1 +1,2 @@
+if -n { mountpoint -q /proc }
 mount -t proc proc /proc
