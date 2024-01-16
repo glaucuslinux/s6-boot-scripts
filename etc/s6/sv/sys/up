@@ -1,2 +1,2 @@
-if -n { mountpoint -q /sys }
+if -nt { mountpoint -q /sys }
 mount -t sysfs sys /sys
