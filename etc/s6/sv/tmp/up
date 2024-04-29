@@ -1,1 +1,1 @@
-install -dm1777 /run/tmp
+install -dm 1777 /tmp
