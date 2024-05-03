@@ -1,5 +1,5 @@
 # s6-boot-scripts
-glaucus's s6 boot scripts
+glaucus s6 boot scripts
 
 ## Community
 * [Discord](https://discord.gg/nDKNmNc)
