@@ -1,5 +1,5 @@
-if { install -dm 755 /run/utmps }
-if { chown utmp:utmp /run/utmps }
+if { mkdir -pm 755 /run/utmps }
+if { chown -R 20:20 /run/utmps }
 s6-setuidgid utmp
 redirfd -w 1 /run/utmps/utmp
 exit 0

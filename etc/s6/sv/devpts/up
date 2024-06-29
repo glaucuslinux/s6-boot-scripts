@@ -1,2 +1,2 @@
-if { install -d /dev/pts }
+if { mkdir -p /dev/pts }
 mount -o noexec,nosuid,gid=5,mode=600 -t devpts devpts /dev/pts

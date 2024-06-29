@@ -1,1 +1,1 @@
-install -dm 1777 /tmp
+mkdir -pm 1777 /tmp

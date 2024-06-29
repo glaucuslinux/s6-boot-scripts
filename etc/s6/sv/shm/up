@@ -1,2 +1,2 @@
-if { install -d /run/shm }
+if { mkdir -p /run/shm }
 ln -fns /run/shm /dev
