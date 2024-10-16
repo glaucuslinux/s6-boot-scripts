@@ -1,3 +1,3 @@
 #!/usr/bin/execlineb -P
 
-s6-linux-init-shutdownd -d 3 -c "/etc/s6/current"
+s6-linux-init-shutdownd -d 3 -c /etc/s6/current
