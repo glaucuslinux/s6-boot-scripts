@@ -1,1 +1,0 @@
-ln -fns /proc/kcore /dev/core
