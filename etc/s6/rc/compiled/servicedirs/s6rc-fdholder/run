@@ -10,8 +10,8 @@ pipeline -dw --
   {
     redirfd -r 0 ./data/autofilled
     s6-ipcclient -l0 -- s
-    /usr/lib/s6-rc/s6-rc-fdholder-filler -1 --
+    /usr/bin/s6-rc-fdholder-filler -1 --
   }
   s6-svc -t .
 }
-s6-fdholder-daemon -1 -i data/rules -- s
+s6-fdholder-daemon -1 -n 256 -i data/rules -- s
