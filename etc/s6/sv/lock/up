@@ -1,1 +1,1 @@
-mkdir -pm 700 /run/lock
+mkdir -m 700 -p /run/lock

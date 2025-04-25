@@ -1,1 +1,1 @@
-mkdir -pm 1777 /tmp
+mkdir -m 1777 -p /tmp

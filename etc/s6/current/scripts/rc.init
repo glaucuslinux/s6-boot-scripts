@@ -3,6 +3,6 @@
 rl="$1"
 shift
 
-s6-rc-init -c /etc/s6/rc/compiled /run/service
+s6-rc-init -c /etc/s6/rc/compiled /run/sv
 
 exec /etc/s6/current/scripts/runlevel "$rl"

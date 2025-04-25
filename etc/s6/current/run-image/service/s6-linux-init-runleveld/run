@@ -3,5 +3,5 @@
 fdmove -c 2 1
 fdmove 1 3
 s6-ipcserver -1 -a 700 -c 1 -- s
-s6-sudod -dt30000 --
+s6-sudod -d -t 30000 --
 /etc/s6/current/scripts/runlevel
