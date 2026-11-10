@@ -1,2 +1,0 @@
-redirfd -w 2 /dev/null
-dd if=/dev/urandom of=/var/lib/misc/random-seed count=1 bs=256

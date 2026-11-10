@@ -1,5 +1,0 @@
-if { mkdir -m 755 -p /run/utmps }
-if { chown -R utmp:utmp /run/utmps }
-s6-setuidgid utmp
-redirfd -w 1 /run/utmps/utmp
-exit 0
