@@ -1,3 +1,0 @@
-#!/usr/bin/execlineb -P
-
-exec mdevd -D 3 -O 4
